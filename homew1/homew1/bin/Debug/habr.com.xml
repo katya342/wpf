@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Все публикации подряд</title>
+    <link>https://habr.com/ru/all/</link>
+    <description><![CDATA[Все публикации подряд на Хабре]]></description>
+    <language>ru</language>
+    <managingEditor>editor@habr.com</managingEditor>
+    <generator>habr.com</generator>
+    <pubDate>Sun, 25 Dec 2022 10:43:53 GMT</pubDate>
+    
+      <image>
+        <link>https://habr.com/ru/</link>
+        <url>https://habrastorage.org/webt/ym/el/wk/ymelwk3zy1gawz4nkejl_-ammtc.png</url>
+        <title>Хабр</title>
+      </image>
+
+              <item>
+      <title><![CDATA[Конструктор базы для браузерной стратегии в духе Dune 2/2000 на Three.js, Vue3 + TS]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/707518/</guid>
+      <link>https://habr.com/ru/post/707518/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=707518</link>
+      <description><![CDATA[<p>Самой успешной моей статьей для сообщества был подробный отчет <a href="https://habr.com/ru/post/556238/" rel="noopener noreferrer nofollow"><u>о разработке браузерного FPS</u></a>. Судя по статистике в базе данных — неожиданно огромное количество людей зашло и попробовало сыграть, я получал заинтересованные вопросы в личку и так далее. В дальнейшем я сделал еще одну попытку крафтового браузерного геймдева на javascript и попробовал создать конструктор для стратегии в духе культовой Dune из детства. В какой-то момент я уперся в низкую производительность получившейся разработки и заскучал, уже почти год как забросил это дело. Но меня получилось построить работающий полноценный контрол, сейчас можно возводить и демонтировать постройки. Поэтому я хочу, прежде всего, поставить точку для себя, немного рассказав и о данной затее — возможно для кого-то окажутся полезными мои усилия. Статья не будет такой объемной, дотошной и разнообразной как первая о создании полноценного шутера, зато сам код репозитория, кажется, немного интереснее, так использует более актуальный стек из Vue3 и TypeScript. Во много, эта разработка продолжает идеи и методы первой, с тем отличием, что мы пилим стратегию, а не шутер от первого лица. Я не буду повторять то что было уже пройдено и рассмотрено в первом примере, бегло покажу только «новые фичи».</p><p></p> <a href="https://habr.com/ru/post/707518/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=707518#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Sun, 25 Dec 2022 00:13:14 GMT</pubDate>
+      <dc:creator>ushliypakostnik</dc:creator>
+      <category><![CDATA[JavaScript]]></category><category><![CDATA[Разработка игр]]></category><category><![CDATA[Canvas]]></category><category><![CDATA[VueJS]]></category><category><![CDATA[TypeScript]]></category>
+      <category><![CDATA[three.js]]></category><category><![CDATA[threejs]]></category><category><![CDATA[vue]]></category><category><![CDATA[vue.js]]></category><category><![CDATA[vuejs]]></category><category><![CDATA[vue 3.0]]></category><category><![CDATA[gamedev]]></category><category><![CDATA[игры]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[«Хакер»: Как мы с DALL-E 2 делали картинки к статьям]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/707532/</guid>
+      <link>https://habr.com/ru/post/707532/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=707532</link>
+      <description><![CDATA[<p>DALL-E 2 — нейросеть, которая рисует картинки по текстовому запросу. Гулявшие в этом году примеры работы с ней просто поражают: иногда она рисует, как настоящий художник, и еще и предлагает варианты на выбор! С августа этого года мы периодически использовали DALL-E 2, чтобы генерировать заглавные картинки к статьям «Хакера», и сегодня я покажу, как это было.</p><p></p> <a href="https://habr.com/ru/post/707532/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=707532#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Sun, 25 Dec 2022 07:17:23 GMT</pubDate>
+      <dc:creator>pand</dc:creator>
+      <category><![CDATA[Блог компании Журнал Хакер]]></category><category><![CDATA[Информационная безопасность]]></category><category><![CDATA[Искусственный интеллект]]></category>
+      <category><![CDATA[dalle-2]]></category><category><![CDATA[нейросети]]></category><category><![CDATA[хакер]]></category><category><![CDATA[изображения]]></category><category><![CDATA[изобразительное искусство]]></category><category><![CDATA[генеративное искусство]]></category><category><![CDATA[художники]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Unity «уменьшение размера файла на устройстве» Часть 1]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/707480/</guid>
+      <link>https://habr.com/ru/post/707480/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=707480</link>
+      <description><![CDATA[<p>Когда игра подходит к релизу, ее объем занимаемой памяти сильно превышает желаемый. Если говорить с точки зрения пользователя, то они тоже не любят, когда приложение весит очень много. Это может отпугнуть как при первом скачивании, так и при очистке телефона, когда нужно будет освободить место.  </p><p>В этой статье будут рассмотрены основные способы оптимизации игры на Unity по уменьшению размера файла на устройстве. В основном статья подходит для мобильных платформ, так как на ПК игры весом в 100Гб уже стали нормой. Многие методы и настройки будут нацелены именно на мобильные устройства в частности Android.</p><p></p> <a href="https://habr.com/ru/post/707480/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=707480#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Sat, 24 Dec 2022 12:08:07 GMT</pubDate>
+      <dc:creator>OusIU</dc:creator>
+      <category><![CDATA[Разработка игр]]></category><category><![CDATA[Unity]]></category>
+      <category><![CDATA[Unity]]></category><category><![CDATA[уменьшение размера]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Про Vim &quot; Режим вставки]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/707524/</guid>
+      <link>https://habr.com/ru/post/707524/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=707524</link>
+      <description><![CDATA[<p>В <a href="https://habr.com/ru/post/706402/" rel="noopener noreferrer nofollow">предыдущем посте про горячие клавиши</a> был сделан вывод о том, что лучше не трогать родные горячие клавиши и сочетания с модификатором <code>CTRL</code> и освоить их как есть, а все пользовательские команды и управление плагинами оставить на сочетания с клавишей лидером. Их туда можно напихать можно сколько угодно. Мнемонически это выгодно тем, что базовые сочетания будут работать везде и вы знаете, что сочетания с лидером могу работать каждый раз немного по-разному, особенно если вы активно используете конфигурации под определенные типы файлов (<code>:filetype on</code>). В каком-то случае LSP (Language Server Protocol) нужен, в каком-то нет, где-то DAP (Debug Adapter Protocol) работает, где-то в нем нет смысла, для большинства типов файлов омни автодополнение включено, для SQL скриптов лучше вызывать его вручную и так далее.</p><p>Однако всё это хозяйство работает пока не включен режим вставки. В режиме вставки остается очень ограниченный перечень плюшек, работающих с нажатым <code>CTRL</code>. Большинство пользователей при этом дружно сходятся во мнении, что в данном случае нужно беспрекословно следовать той самой философии "модального" режима, а именно: режим вставки - только для вставки. То есть встали на нужное место, нажали один из вариантов входа в режим вставки, кстати их там вагон и маленькая тележка, набрали нужный кусочек текста, и тут же вернулись в нормальный режим. "Нормальный" он именно поэтому - другие режимы считаются "ненормальными". Так вот? к этой философии привыкнуть после пары десятков лет с WYSWIG с разбегу, прямо скажем, сложновато.</p><p></p> <a href="https://habr.com/ru/post/707524/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=707524#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Sun, 25 Dec 2022 03:37:46 GMT</pubDate>
+      <dc:creator>Rembo123</dc:creator>
+      <category><![CDATA[VIM]]></category>
+      <category><![CDATA[vimrc]]></category><category><![CDATA[lua]]></category><category><![CDATA[vim]]></category><category><![CDATA[neovim]]></category><category><![CDATA[easymotions]]></category><category><![CDATA[registers]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Однажды у нас будет полностью настраиваемый select]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/707498/</guid>
+      <link>https://habr.com/ru/post/707498/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=707498</link>
+      <description><![CDATA[<p>Сегодня я хочу рассмотреть предложенную функцию HTML, которая может в итоге заменить множество пользовательских компонентов ввода на основе <code>&lt;div&gt;</code>: <code>&lt;selectmenu&gt;</code>.</p><p></p> <a href="https://habr.com/ru/post/707498/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=707498#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Sat, 24 Dec 2022 18:08:13 GMT</pubDate>
+      <dc:creator>Ekseft</dc:creator>
+      <category><![CDATA[Разработка веб-сайтов]]></category><category><![CDATA[Интерфейсы]]></category><category><![CDATA[HTML]]></category>
+      <category>select</category><category>selectmenu</category>
+    </item>
+
+
+
+      <item>
+      <title><![CDATA[Китай продолжает развивать электронную промышленность: на очереди — собственные литографические машины. Перспективы]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/707522/</guid>
+      <link>https://habr.com/ru/post/707522/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=707522</link>
+      <description><![CDATA[<div style="text-align:center;"><img src="https://habrastorage.org/webt/t3/pg/mq/t3pgmqfbnp5hg1tg-26fylb9fd8.jpeg"></div><br>
+<i><sup>Так выглядит EUV-оборудование от ASML</sup></i><br>
+<br>
+Совсем недавно мы опубликовали статью <a href="https://habr.com/ru/company/selectel/blog/703472/">«У электронной промышленности Китая проблемы с архитектурой ARM и NAND-чипами. Какие у Поднебесной шансы»</a>. В ней мы рассказывали о том, что сейчас торговая война США и Китая усугубилась, вследствие чего развитие электронной промышленности в Поднебесной стало более сложной задачей. <br>
+<br>
+Но, все же развитие продолжается. Причем это заметно даже по компании, которая сильнее всех пострадала от санкций США — Huawei. Представители компании недавно подали патентную заявку. В ней описывается современный литографический сканер со <a href="https://money.udn.com/money/story/5604/6780215" rel="nofollow noopener noreferrer">сверхжёстким ультрафиолетовым излучением (EUV)</a>. Если китайцам удастся реализовать то, что описано в заявке, многие проблемы можно будет считать решенными. Об этом сегодня и поговорим. <br> <a href="https://habr.com/ru/post/707522/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=707522#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Sun, 25 Dec 2022 01:28:08 GMT</pubDate>
+      <dc:creator>Seleditor</dc:creator>
+      <category><![CDATA[Блог компании Selectel]]></category><category><![CDATA[Исследования и прогнозы в IT]]></category><category><![CDATA[Производство и разработка электроники]]></category><category><![CDATA[IT-компании]]></category>
+      <category><![CDATA[чипы]]></category><category><![CDATA[китай]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Несовершенство трех законов робототехники]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/706598/</guid>
+      <link>https://habr.com/ru/post/706598/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=706598</link>
+      <description><![CDATA[<p>Этот диалог не имеет никакого смысла для людей, но он произошел между двумя сетями чат-ботов&nbsp; ИИ. Назову их условно: Синий кот и Белый кот. Они «делили» предметы: 2 книги, 1 шляпу и 3 шарика. Изначально можно назвать этих котов-ботов <strong>junior. </strong>В этом эксперименте каждый объект обладал значимостью для сети, выраженной в баллах (от 1 до 3). </p><p></p> <a href="https://habr.com/ru/post/706598/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=706598#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Tue, 20 Dec 2022 10:50:22 GMT</pubDate>
+      <dc:creator>KalipsoMoon</dc:creator>
+      <category><![CDATA[Функциональное программирование]]></category><category><![CDATA[Тестирование мобильных приложений]]></category><category><![CDATA[Читальный зал]]></category><category><![CDATA[Электроника для начинающих]]></category>
+      <category><![CDATA[ИИ]]></category><category><![CDATA[ии чат-бот]]></category><category><![CDATA[ии и машинное обучение]]></category><category><![CDATA[мое мнение]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Once upon a time in Wasmwood или Как я реверсил игру на WASM]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/707504/</guid>
+      <link>https://habr.com/ru/post/707504/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=707504</link>
+      <description><![CDATA[<p>Прошел уже месяц с того момента, как я попытал счастья в решении челленджа по реверсу WASM игры на платформе <a href="https://www.root-me.org/" rel="noopener noreferrer nofollow">root-me</a>.</p><p></p> <a href="https://habr.com/ru/post/707504/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=707504#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Sat, 24 Dec 2022 18:46:27 GMT</pubDate>
+      <dc:creator>threadedstream</dc:creator>
+      <category><![CDATA[Реверс-инжиниринг]]></category><category><![CDATA[WebAssembly]]></category>
+      <category><![CDATA[webassembly]]></category><category><![CDATA[реверс-инжиниринг]]></category><category><![CDATA[реверс-инженеринг]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Алгоритмы диапазонов C++20 — 7 немодифицирующих операций]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/706458/</guid>
+      <link>https://habr.com/ru/post/706458/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=706458</link>
+      <description><![CDATA[<p><a href="https://habr.com/ru/company/skillfactory/blog/706458/"><img src="https://habrastorage.org/webt/rl/7g/af/rl7gaf90ouok_gw6ttgquffd82y.png"></a></p><br>
+<p>Библиотека Ranges для C++20 предлагает альтернативы для большинства алгоритмов. На этот раз я хочу показать вам десять немодифицирующих операций. Мы сравним их со «старой» стандартной версией и увидим их преимущества и ограничения.</p><br>
+<p>Подробности — к старту нашего <a href="https://skillfactory.ru/c-plus-plus-razrabotchik?utm_source=habr&amp;utm_medium=habr&amp;utm_campaign=article&amp;utm_content=coding_cplus_201222&amp;utm_term=lead" rel="nofollow noopener noreferrer">курса по разработке на C++</a>.</p> <a href="https://habr.com/ru/post/706458/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=706458#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Tue, 20 Dec 2022 13:59:22 GMT</pubDate>
+      <dc:creator>honyaki</dc:creator>
+      <category><![CDATA[Блог компании SkillFactory]]></category><category><![CDATA[Программирование]]></category><category><![CDATA[C++]]></category><category><![CDATA[Алгоритмы]]></category>
+      <category>skillfactory</category><category>с++</category><category>программирование</category><category>алгоритмы</category><category>диапазоны</category><category>рассуждения</category><category>примеры</category><category>код</category><category>с++20</category><category>детали</category>
+    </item>
+
+
+
+      <item>
+      <title><![CDATA[Оптимизация данных в MS SQL]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/705656/</guid>
+      <link>https://habr.com/ru/post/705656/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=705656</link>
+      <description><![CDATA[<p>Основная статья&nbsp;<a href="https://habr.com/ru/post/705538/" rel="noopener noreferrer nofollow">Взаимодействие DWH Oracle и MS SQL</a></p><p>Одним из методов для оптимизации обработки, хранения и администрирования данных в базе данных и кубах MS SQL — это процесс создании партицирования данных.</p><p>Partitioning (партицирование или по-другому секционирование) —&nbsp; это разбиение таблицы на несколько частей, а эти части на одну или несколько файловых групп. Партицирование необходимо для целей ускорения доступа чтения или изменения данных и администрирования. Так как выровненный индекс по таблице будет содержаться в каждой условно своей секции, то при чтении или изменении данных будет обращение к конкретной секции и конкретному индексу в этой секции. </p><p>Со стороны администрирования для процесса переноса (например архивирования) данных в другую таблицу без физического перемещения данных, а перемещения только логической секций, подлежащих этой операции, выполнение этого действия происходит мгновенно, что экономит время и ресурсы машины. Для этого необходимо подготовить таблицу «архив» — копию по структуре с таблицей источника, она может быть не партицированна.</p><p>Пример кода для переноса в таблицу:</p><p></p> <a href="https://habr.com/ru/post/705656/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=705656#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Thu, 15 Dec 2022 07:51:57 GMT</pubDate>
+      <dc:creator>KosteevAlex</dc:creator>
+      <category><![CDATA[Microsoft SQL Server]]></category><category><![CDATA[Хранилища данных]]></category><category><![CDATA[Data Engineering]]></category>
+      <category><![CDATA[olap]]></category><category><![CDATA[olap-кубы]]></category><category><![CDATA[mssql]]></category><category><![CDATA[ms sql server]]></category><category><![CDATA[оптимизация]]></category><category><![CDATA[оптимизация кода]]></category><category><![CDATA[оптимизация запросов]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Копирайтерам на выход с вещами?]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/707306/</guid>
+      <link>https://habr.com/ru/post/707306/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=707306</link>
+      <description><![CDATA[<p>Сможет ли ChatGPT сделать более сложную работу? Например, написать статью-интервью. Я решил это проверить и попросил ChatGPT взять интервью у .... ChatGPT. То есть подготовить вопросы, потом самому же на них ответить. Результат можете оценить сами: весь дальнейший текст сгенерирован нейронной сетью. </p><p></p> <a href="https://habr.com/ru/post/707306/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=707306#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Fri, 23 Dec 2022 09:33:01 GMT</pubDate>
+      <dc:creator>akdengi</dc:creator>
+      <category><![CDATA[Научно-популярное]]></category><category><![CDATA[Искусственный интеллект]]></category><category><![CDATA[Natural Language Processing]]></category>
+      <category><![CDATA[ChatGPT]]></category><category><![CDATA[копирайтинг]]></category><category><![CDATA[исскуственный интеллект]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Мощь декораторов TypeScript на живых примерах. Декорирование методов класса]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/707496/</guid>
+      <link>https://habr.com/ru/post/707496/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=707496</link>
+      <description><![CDATA[<p>Декораторы — инструмент декларативного программирования. С их помощью можно легко и элегантно добавить к классам и членам класса метаданные. На основе этих метаданных можно расширять или изменять поведения классов и членов класса, не изменяя при этом кодовую базу, к которой применен декоратор. Саму технологию можно отнести к мета-программированию или декларативному программированию.</p><p>В рамках этой статьи разбирается несколько примеров из реальных проектов, где применение декораторов сильно упростило код для понимания и исключило его дублирование.</p><p></p> <a href="https://habr.com/ru/post/707496/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=707496#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Sat, 24 Dec 2022 16:21:17 GMT</pubDate>
+      <dc:creator>andry36</dc:creator>
+      <category><![CDATA[JavaScript]]></category><category><![CDATA[TypeScript]]></category>
+      <category>typescript</category><category>decorator</category><category>декораторы</category><category>javascript</category>
+    </item>
+
+
+
+      <item>
+      <title><![CDATA[«Чем я могу помочь?» или нетрадиционная парадигма управления]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/707478/</guid>
+      <link>https://habr.com/ru/post/707478/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=707478</link>
+      <description><![CDATA[<p>«Управлять – это значит не мешать хорошим людям работать» говорил Сергей Петрович Капица. Некоторым кажется, что в этой цитате управление представляется в негативном свете, вроде активность менеджера больше препятствует достижению намеченной цели или же просто не добавляет ценности, а управление — это и не работа вовсе: хорошие люди - работают, а руководители, стало быть, нет. Я смотрю на это, как на конструктивный совет руководителям via negativа. Типа «первая заповедь менеджера – не мешай». <a href="https://habr.com/ru/post/444034/" rel="noopener noreferrer nofollow">Я кое-чего написал об этом ранее</a>, но сейчас хотелось бы углубиться не в то, как не надо, а в то, как надо бы. Итак, ловите очередную упаковку magic pills, а уж там - сами разбирайтесь: какая из них синяя, а какая показывает глубину кроличьей норы.</p> <a href="https://habr.com/ru/post/707478/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=707478#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Sat, 24 Dec 2022 12:09:13 GMT</pubDate>
+      <dc:creator>petruchansky</dc:creator>
+      <category><![CDATA[Управление разработкой]]></category><category><![CDATA[Управление проектами]]></category><category><![CDATA[Agile]]></category><category><![CDATA[Управление персоналом]]></category>
+      <category><![CDATA[лидерство]]></category><category><![CDATA[управление людьми]]></category><category><![CDATA[управление проектами]]></category><category><![CDATA[управление проектами и командой]]></category><category><![CDATA[управление командой]]></category><category><![CDATA[управление проектом]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Задача теплопроводности методом продольно-поперечной прогонки средствами MPI]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/707462/</guid>
+      <link>https://habr.com/ru/post/707462/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=707462</link>
+      <description><![CDATA[<p>Приветствую</p><p>Появилась задача моделирования процесса теплопроводности. Для решения необходимо было использовать метод продольно-поперечной прогонки, а для распараллеливания - MPI</p><p>Разберем не только теорию, но и подробности решения</p><p></p> <a href="https://habr.com/ru/post/707462/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=707462#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Sat, 24 Dec 2022 08:45:02 GMT</pubDate>
+      <dc:creator>AshBlade</dc:creator>
+      <category><![CDATA[C++]]></category><category><![CDATA[C]]></category><category><![CDATA[Математика]]></category><category><![CDATA[Параллельное программирование]]></category><category><![CDATA[Физика]]></category>
+      <category><![CDATA[теплопроводность]]></category><category><![CDATA[математика]]></category><category><![CDATA[математическое моделирование]]></category><category><![CDATA[моделирование]]></category><category><![CDATA[параллельное программирование]]></category><category><![CDATA[mpi]]></category><category><![CDATA[физика]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Манулы и мануалы: можно ли избавиться от дурацких описок в технических текстах]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/706120/</guid>
+      <link>https://habr.com/ru/post/706120/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=706120</link>
+      <description><![CDATA[<p>Авторов технических текстов на каждом шагу подстерегают ловушки: орфографические омуты, пунктуационные овраги, горы фактических неточностей. Все эти препятствия, хоть и грозные, но вполне знакомые. У тех, кто много пишет, уже есть известные тропки, перевалы и мостики. По ним авторы успешно обходят все неприятности на пути к заветной цели: качественному и полезному тексту.</p><p>Но есть и ещё один тип ошибок: мелких, незначительных, вездесущих. Они как микроскопические пылинки проникают в каждый текст. Автор может часами выверять фактические данные и полировать до сияющего блеска формулировки. Но в тончайший прецизионный часовой механизм документа всё равно проникнут вредные песчинки. Имя им — описки.</p><p>Можно ли как-то автоматизировать процесс отлова таких мелких назойливых «багов», чтобы раз и навсегда забыть о них и сосредоточиться на более важных вещах? В этой статье я хочу поделиться с вами несколькими способами борьбы с такими «вредителями», которые сам применяю на практике. А заодно перечислю самые забавные ляпы, которые я вылавливал в своих текстах.</p><p></p> <a href="https://habr.com/ru/post/706120/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=706120#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Sat, 24 Dec 2022 11:18:41 GMT</pubDate>
+      <dc:creator>AKlimenkov</dc:creator>
+      <category><![CDATA[Терминология IT]]></category><category><![CDATA[GTD]]></category><category><![CDATA[Читальный зал]]></category><category><![CDATA[Лайфхаки для гиков]]></category><category><![CDATA[Подготовка технической документации]]></category>
+      <category><![CDATA[орфография]]></category><category><![CDATA[ошибки]]></category><category><![CDATA[проверка орфографии]]></category><category><![CDATA[описки]]></category><category><![CDATA[spellchecker]]></category><category><![CDATA[документация]]></category><category><![CDATA[технические тексты]]></category><category><![CDATA[манул]]></category><category><![CDATA[мануалы]]></category><category><![CDATA[мануал]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Немного про ПИД-регуляторы или «велосипед автоматизации». Часть 2]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/707338/</guid>
+      <link>https://habr.com/ru/post/707338/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=707338</link>
+      <description><![CDATA[<p><strong>Реализация регулятора в ПЛК.</strong></p><p>Все, что будет написано ниже про реализацию  ПИД-регулятора в ПЛК, не является чем-то новым и революционным. Практически всю эту информацию можно найти в документации на ПЛК серьезных производителей. Если вы инженер АСУТП со стажем и добросовестно изучали документацию на ПЛК, то все это вам известно. Но в текущей реалии есть каста молодых инженеров и студентов,  которая все знания черпает из роликов на ютубе. Заставив себя посмотреть  несколько самых популярных роликов про реализацию ПИД-регулятора, я был огорчен  качеством излагаемого материала: объяснение работы ПИД-регулятора уж очень «колхозное», а реализация сводится к 15 строкам кода на С++, что порождает<br> упрощенное и ошибочное понимание предмета. Вот для касты ютуб специалистов в<br> первую очередь и предназначено это описание.</p><p></p> <a href="https://habr.com/ru/post/707338/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=707338#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Sat, 24 Dec 2022 05:05:53 GMT</pubDate>
+      <dc:creator>Inginer_ASU</dc:creator>
+      <category><![CDATA[Анализ и проектирование систем]]></category><category><![CDATA[Промышленное программирование]]></category><category><![CDATA[SCADA]]></category>
+      <category><![CDATA[плк]]></category><category><![CDATA[промышленная автоматизация]]></category><category><![CDATA[пид-регулятор]]></category><category><![CDATA[scada]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[«Мутные» перспективы производителя ламп Thomson на примере лампочки 24Вт с цоколем е27]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/707474/</guid>
+      <link>https://habr.com/ru/post/707474/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=707474</link>
+      <description><![CDATA[<p>Всем привет!</p><p>Я популяризирую требовательное отношение к светодиодным лампам.</p><p>На этой неделе на моем столе лампочка от Thomson на 24 Вт с цоколем Е27. Лампа большая, тип колбы — А80 (80 мм диаметр «груши»). Наверное, с таким форм-фактором должна быть рассчитана для использования где-то на улице или в складских помещениях. Хотя не исключаю и специфического использования, так, например, в студии, где я снимаю ролики, внешней подсветкой выступают именно три подобных лампы в лайтбоксе.</p><p>Thomson. Звучит до боли знакомо, но будто бы из нулевых годов. Помню видеомагнитофоны были популярны от этой компании, были буквально везде. Фирма с историей. Актуализируем свои знания.</p> <a href="https://habr.com/ru/post/707474/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=707474#habracut">Не обжечься о колбу</a>]]></description>
+      
+      <pubDate>Sat, 24 Dec 2022 11:02:37 GMT</pubDate>
+      <dc:creator>Domorost</dc:creator>
+      <category><![CDATA[Гаджеты]]></category>
+      <category><![CDATA[светодиоды]]></category><category><![CDATA[светодиодные лампы]]></category><category><![CDATA[led-лампы]]></category><category><![CDATA[led]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Сервис полезных ссылок и ресурсов для разработчиков игр и геймдизайнеров]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/707242/</guid>
+      <link>https://habr.com/ru/post/707242/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=707242</link>
+      <description><![CDATA[<p>Делюсь интересными ссылками, статьями, сервисами и материалами для разработчиков игр и всех смежных профессий, которые участвуют в разработке. В сервисе уже около 300 полезных ссылок и в закладки можно добавить только его, ведь информация в нем постоянно будет обновляться и со временем количество ресурсов будет только расти.</p><p></p> <a href="https://habr.com/ru/post/707242/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=707242#habracut">Читать далее...</a>]]></description>
+      
+      <pubDate>Fri, 23 Dec 2022 05:51:48 GMT</pubDate>
+      <dc:creator>Eduard_Kumykov</dc:creator>
+      <category><![CDATA[Разработка игр]]></category><category><![CDATA[Монетизация игр]]></category><category><![CDATA[Аналитика мобильных приложений]]></category><category><![CDATA[Дизайн игр]]></category><category><![CDATA[Продвижение игр]]></category>
+      <category><![CDATA[ссылки для разработчика игр]]></category><category><![CDATA[ссылки для игрового аналитика]]></category><category><![CDATA[продвижение игр]]></category><category><![CDATA[полезные ссылки]]></category><category><![CDATA[полезные ресурсы]]></category><category><![CDATA[разработка игр]]></category><category><![CDATA[монетизация игр]]></category><category><![CDATA[сервисы для разработчиков игр]]></category><category><![CDATA[gamedev]]></category><category><![CDATA[продвижение игры]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Ещё одна подборка книг по QA]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/707466/</guid>
+      <link>https://habr.com/ru/post/707466/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=707466</link>
+      <description><![CDATA[<p>Вторая часть подборки материалов от QA для начинающих специалистов (и не только). Под катом квалификационные требования, практические пособия и классика книг по тестированию. </p><p></p> <a href="https://habr.com/ru/post/707466/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=707466#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Sat, 24 Dec 2022 10:04:09 GMT</pubDate>
+      <dc:creator>AlfaTeam</dc:creator>
+      <category><![CDATA[Блог компании Альфа-Банк]]></category><category><![CDATA[Тестирование IT-систем]]></category><category><![CDATA[Профессиональная литература]]></category>
+      <category><![CDATA[книги по программированию]]></category><category><![CDATA[тестирование]]></category><category><![CDATA[подборка книг]]></category><category><![CDATA[тестирование приложений]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[О, Шушпанчик! К вопросу о генезисе мемасов раннего Рунета и этого нашего Фидо]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/707308/</guid>
+      <link>https://habr.com/ru/post/707308/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=707308</link>
+      <description><![CDATA[<a href="https://habr.com/ru/company/ruvds/blog/707308/"><div style="text-align:center;"><img src="https://habrastorage.org/webt/k_/ew/c1/k_ewc16p3r21hlr-t4sk-vj0x5a.jpeg"></div></a><br>
+На рубеже веков и тысячелетий… проще говоря, около 2000 года русскоязычная сеть была юной и населённой в основном программистами, гиками, а именно — гиками-программистами. С дорогим и сложнодоступным Интернетом уверенно спорил Фидонет, который некоторые порывались сделать векторным и гипертекстовым, а о понятии сетевого мема или медиавируса тогда слышали в основном ну очень закопавшиеся в предмет нёрды. <br>
+<br>
+Тем не менее, шушпанчиков, зародившиеся в пучинах прочно вошедшей в анналы истории рунета эхи Su.Kaschenko.Local, можно с уверенностью назвать одним из важнейших сетевых мемов начала нулевых. Правда, есть небольшая проблема. О шушпанчиках написаны сотни шушпанишад и шушпанизмов, однако «основная характеристика шушпанчиков состоит в том, что никто точно не знает, что это такое и как они выглядят». <a href="https://habr.com/ru/post/707308/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=707308#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Sat, 24 Dec 2022 10:00:02 GMT</pubDate>
+      <dc:creator>Erwinmal</dc:creator>
+      <category><![CDATA[Блог компании RUVDS.com]]></category><category><![CDATA[Читальный зал]]></category><category><![CDATA[История IT]]></category><category><![CDATA[Социальные сети и сообщества]]></category>
+      <category><![CDATA[рунет]]></category><category><![CDATA[живой журнал]]></category><category><![CDATA[шушпанчик]]></category><category><![CDATA[фидонет]]></category><category><![CDATA[мемы]]></category><category><![CDATA[кащениты]]></category><category><![CDATA[ruvds_статьи_выходного_дня]]></category>
+    </item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </channel>
+</rss>
