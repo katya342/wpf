@@ -1,0 +1,48 @@
+﻿<Window x:Class="BookShop.Windows._AdminWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BookShop.Windows"
+        mc:Ignorable="d"
+        Title="_AdminWindow" Height="450" Width="800"
+        x:Name="Admin">
+   
+    <Grid>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="150"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Border Grid.Row = "1" Grid.Column="1" BorderBrush="Black" BorderThickness="1, 1, 1, 1" CornerRadius="10" Background="Black">
+            <WrapPanel VerticalAlignment="Center">
+                <Label Content="Home" Foreground="White" FontSize="16" Cursor="Hand"></Label>
+                <Label Content="Category" Foreground="White" FontSize="16" MouseDoubleClick="DoubleClick_Category"></Label>
+                <Label Content="Books" Foreground="White" FontSize="16" MouseDoubleClick="DoubleClick_Books"></Label>
+                <Label Content="Contact" Foreground="White" FontSize="16"></Label>
+                <Label Content="LogOut" Foreground="White" FontSize="16"></Label>
+            </WrapPanel>
+        </Border>
+        <Border Grid.Column="1" Grid.Row="2">
+
+            <Border.Background>
+                <ImageBrush ImageSource="https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/main_image_star-forming_region_carina_nircam_final-1280.jpg"></ImageBrush>
+            </Border.Background>
+        </Border>
+        <StackPanel Grid.Row="4" Grid.Column="1">
+            
+            <Label Content="Welcome to admin ..."></Label>
+            <Label Content="Entry"></Label>
+            <Border BorderBrush="Black" BorderThickness="1, 1, 1, 1" CornerRadius="10" Background="Black">
+                <Label HorizontalContentAlignment="Center" Content="(c) 2010 Outside. Design by Satavaia Darshana, Halavadian Shital" Foreground="White"></Label>
+            </Border>
+        </StackPanel>
+    </Grid>
+</Window>

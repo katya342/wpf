@@ -1,0 +1,14 @@
+C:\progi\c#\BookShop\BookStore.lib\bin\Debug\BookStore.lib.dll.config
+C:\progi\c#\BookShop\BookStore.lib\bin\Debug\BookStore.lib.dll
+C:\progi\c#\BookShop\BookStore.lib\bin\Debug\BookStore.lib.pdb
+C:\progi\c#\BookShop\BookStore.lib\bin\Debug\EntityFramework.dll
+C:\progi\c#\BookShop\BookStore.lib\bin\Debug\EntityFramework.SqlServer.dll
+C:\progi\c#\BookShop\BookStore.lib\bin\Debug\EntityFramework.xml
+C:\progi\c#\BookShop\BookStore.lib\bin\Debug\EntityFramework.SqlServer.xml
+C:\progi\c#\BookShop\BookStore.lib\bin\Debug\ru\EntityFramework.resources.dll
+C:\progi\c#\BookShop\BookStore.lib\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\progi\c#\BookShop\BookStore.lib\obj\Debug\BookStore.lib.csproj.AssemblyReference.cache
+C:\progi\c#\BookShop\BookStore.lib\obj\Debug\BookStore.lib.csproj.CoreCompileInputs.cache
+C:\progi\c#\BookShop\BookStore.lib\obj\Debug\BookStore.lib.csproj.CopyComplete
+C:\progi\c#\BookShop\BookStore.lib\obj\Debug\BookStore.lib.dll
+C:\progi\c#\BookShop\BookStore.lib\obj\Debug\BookStore.lib.pdb

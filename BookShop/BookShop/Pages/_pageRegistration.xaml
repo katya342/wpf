@@ -1,0 +1,56 @@
+﻿<Page x:Class="BookShop._pageRegistration"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BookShop"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="_pageRegistration">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Grid.ColumnSpan="1" Content="Welcome to Registration" FontSize="20"></Label>
+        <Label Grid.Row="1" Grid.Column="0" Content="Full Name : "></Label>
+        <Label Grid.Row="2" Grid.Column="0" Content="User Name : "></Label>
+        <Label Grid.Row="3" Grid.Column="0" Content="Password : " ></Label>
+        <Label Grid.Row="4" Grid.Column="0" Content="Confirm Password : "></Label>
+        <Label Grid.Row="5" Grid.Column="0" Content="Gender : "></Label>
+        <Label Grid.Row="6" Grid.Column="0" Content="Email address : "></Label>
+        <Label Grid.Row="7" Grid.Column="0" Content="Contact No. : "></Label>
+        <Label Grid.Row="8" Grid.Column="0" Content="City : "></Label>
+        <TextBox Height="20" Grid.Row="1" Grid.Column="1"  x:Name="lblName"></TextBox>
+        <TextBox Height="20" Grid.Row="2" Grid.Column="1" x:Name="lblUsrName"></TextBox>
+        <TextBox Height="20" Grid.Row="3" Grid.Column="1" x:Name="Pass"></TextBox>
+        <TextBox Height="20" Grid.Row="4" Grid.Column="1" x:Name="confPass"></TextBox>
+        <WrapPanel Height="20" Grid.Row="5" Grid.Column="1">
+            <RadioButton Content="Male"></RadioButton>
+            <RadioButton Content="Female"></RadioButton>
+        </WrapPanel>
+        <TextBox Height="20" Grid.Row="6" Grid.Column="1"></TextBox>
+        <TextBox Height="20" Grid.Row="7" Grid.Column="1"></TextBox>
+        <ComboBox Height="20" Grid.Row="8" Grid.Column="1" Name="CityList">
+            <TextBlock Text="Ahmedabad"></TextBlock>
+        </ComboBox>
+        <WrapPanel Height="20" Grid.Row="9" Grid.ColumnSpan="1">
+            <CheckBox Content=""></CheckBox>
+            <Label Content="I Accept Term and Condition."></Label>
+        </WrapPanel>
+       
+    </Grid>
+</Page>

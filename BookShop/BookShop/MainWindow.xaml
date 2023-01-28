@@ -1,0 +1,62 @@
+﻿<Window x:Class="BookShop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BookShop"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="150"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Border Grid.Row = "1" Grid.Column="1" BorderBrush="Black" BorderThickness="1, 1, 1, 1" CornerRadius="10" Background="Black">
+            <WrapPanel VerticalAlignment="Center">
+                <Label Content="Home" Foreground="White" FontSize="16" Cursor="Hand"></Label>
+                <Label Content="Register" Foreground="White" FontSize="16" MouseDoubleClick="Label_MouseDoubleClick"></Label>
+                <Label Content="Contact" Foreground="White" FontSize="16" MouseDoubleClick="Label_Contact_Mouse_Double_Click"></Label>
+                <Label Content="About us" Foreground="White" FontSize="16"></Label>
+                <Label Content="View Cart" Foreground="White" FontSize="16"></Label>
+            </WrapPanel>
+        </Border>
+        <Border Grid.Column="1" Grid.Row="2">
+            
+            <Border.Background>
+                <ImageBrush ImageSource="https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/main_image_star-forming_region_carina_nircam_final-1280.jpg"></ImageBrush>
+            </Border.Background>
+        </Border>
+        <Grid Grid.Row="5" Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0">
+                
+                <Border CornerRadius="10" Background="Black">
+                    <Label Content="Login" Foreground="White"></Label>
+                    
+                </Border>
+                <Label Content="UserName"></Label>
+                <TextBox x:Name="tbxUserName"></TextBox>
+                <Label Content="Password"></Label>
+               
+                <WrapPanel Orientation="Horizontal">
+                    <PasswordBox x:Name="pbPassword" Width="116"></PasswordBox>
+                    <Button Content="Login" Click="Button_Click"></Button>
+                </WrapPanel>
+            </StackPanel>
+            <Frame Grid.Column="1" Grid.Row="2" x:Name="framePage">
+
+            </Frame>
+
+        </Grid>
+    </Grid>
+</Window>

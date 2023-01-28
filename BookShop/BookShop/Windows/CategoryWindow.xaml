@@ -1,0 +1,69 @@
+﻿<Window x:Class="BookShop.CategoryWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BookShop"
+        mc:Ignorable="d"
+        Title="CategoryWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="70"></RowDefinition>
+            <RowDefinition Height="100"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0">
+            <Label  Content="ADD CATEGORY" FontWeight="Bold"></Label>
+            <WrapPanel Grid.Row="1" Orientation="Horizontal" >
+
+                <TextBox x:Name="tbxcatAdd" Width="150"></TextBox>
+                <Button Content="Add" Width="50" Margin="5 0 0 0" Click="Button_Click"></Button>
+
+            </WrapPanel>
+        </StackPanel>
+       
+        <StackPanel Grid.Row="1">
+
+            <Label Content="ADD SUB - CATEGORY" FontWeight="Bold"></Label>
+            <Label Content=   "PARENT CATEGORY : ">
+                
+            </Label>
+            <ComboBox Width="200" HorizontalAlignment="Left" x:Name="cmbBox" DisplayMemberPath="Name" SelectedValuePath="Id">
+                
+            </ComboBox>
+
+        </StackPanel>
+        <StackPanel Grid.Row="2">
+            <Label Content="SUB - CATEGORY"></Label>
+            <WrapPanel>
+                <TextBox Width="150" x:Name="txtBoxAdd"></TextBox>
+                <Button Content="Add" Width="50" Margin="5 0 0 0" Click="Sub_Category_Add"></Button>
+            </WrapPanel>
+
+        </StackPanel>
+       
+        <StackPanel Grid.Row="3">
+            <Label  Content="Delete category" FontWeight="Bold"></Label>
+            <WrapPanel Grid.Row="3">
+                <ComboBox Width="200" HorizontalAlignment="Left" x:Name="cmbBoxDel"
+                          DisplayMemberPath="Name" SelectedValuePath="Id">
+                    
+                </ComboBox>
+                <Button Content="Delete" Margin="5 0 0 0" Click="Deleting_Category"></Button>
+            </WrapPanel>
+        </StackPanel>
+
+        <StackPanel Grid.Row="4">
+            <Label Content="Delete sub category" FontWeight="Bold"></Label>
+            <WrapPanel Grid.Row="3">
+                <ComboBox Width="200" HorizontalAlignment="Left" x:Name="cmbBoxDelSub" DisplayMemberPath="Name" SelectedValuePath="Id">
+                    
+                </ComboBox>
+                <Button Content="Delete" Margin="5 0 0 0" Click="Deleting_Sub_Category"></Button>
+            </WrapPanel>
+        </StackPanel>
+     
+    </Grid>
+</Window>
