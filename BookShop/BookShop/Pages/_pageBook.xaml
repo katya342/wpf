@@ -9,6 +9,50 @@
       Title="_pageBook">
 
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Content="Java XML"></Label>
+        <StackPanel Grid.Row="1">
+            <Label HorizontalContentAlignment="Center" Content="Item Details"></Label>
+        </StackPanel>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Image Grid.Column="0" ContextMenu="{Binding Source=Image}" Source="{Binding Category.Image}" x:Name="imageBook"></Image>
+            <StackPanel Grid.Column="1">
+                <WrapPanel>
+                    <Label Content="Name: "></Label>
+                    <Label Content="{Binding Book.Name}" Width="200" x:Name="lblBookName"></Label>
+                </WrapPanel>
+                <WrapPanel>
+                    <Label Content="ISBN: "></Label>
+                    <TextBlock x:Name="txtblckISBN"></TextBlock>
+                </WrapPanel>
+                <WrapPanel>
+                    <Label Content="Pulisher">
+                    </Label>
+                    <TextBlock x:Name="txtblckPub"></TextBlock>
+                </WrapPanel>
+                <WrapPanel>
+                    <Label Content="Edition"></Label>
+                    <TextBlock x:Name="txtblckEdit"></TextBlock>
+                </WrapPanel>
+                <WrapPanel>
+                    <Label Content="Pages"></Label>
+                    <TextBlock></TextBlock>
+                </WrapPanel>
+                <WrapPanel>
+                    <Label Content="Price"></Label>
+                    <TextBlock></TextBlock>
+                </WrapPanel>
+            </StackPanel>
+         
+        </Grid>
     </Grid>
+
 </Page>

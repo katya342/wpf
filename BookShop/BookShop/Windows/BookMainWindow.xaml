@@ -49,7 +49,7 @@
                 </Border>
             </StackPanel>
             <Frame Grid.Column="1" Grid.Row="2" x:Name="bookPage">
-
+        
             </Frame>
 
         </Grid>

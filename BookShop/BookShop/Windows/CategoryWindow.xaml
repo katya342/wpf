@@ -30,7 +30,7 @@
             <Label Content=   "PARENT CATEGORY : ">
                 
             </Label>
-            <ComboBox Width="200" HorizontalAlignment="Left" x:Name="cmbBox" DisplayMemberPath="Name" SelectedValuePath="Id">
+            <ComboBox Width="200" HorizontalAlignment="Left" x:Name="cmbBox" DisplayMemberPath="SubName" SelectedValuePath="Parent_id">
                 
             </ComboBox>
 
@@ -48,7 +48,7 @@
             <Label  Content="Delete category" FontWeight="Bold"></Label>
             <WrapPanel Grid.Row="3">
                 <ComboBox Width="200" HorizontalAlignment="Left" x:Name="cmbBoxDel"
-                          DisplayMemberPath="Name" SelectedValuePath="Id">
+                         DisplayMemberPath="Name" SelectedValuePath="Id">
                     
                 </ComboBox>
                 <Button Content="Delete" Margin="5 0 0 0" Click="Deleting_Category"></Button>
@@ -58,7 +58,7 @@
         <StackPanel Grid.Row="4">
             <Label Content="Delete sub category" FontWeight="Bold"></Label>
             <WrapPanel Grid.Row="3">
-                <ComboBox Width="200" HorizontalAlignment="Left" x:Name="cmbBoxDelSub" DisplayMemberPath="Name" SelectedValuePath="Id">
+                <ComboBox Width="200" HorizontalAlignment="Left" x:Name="cmbBoxDelSub" DisplayMemberPath="SubName" SelectedValuePath="SubId">
                     
                 </ComboBox>
                 <Button Content="Delete" Margin="5 0 0 0" Click="Deleting_Sub_Category"></Button>

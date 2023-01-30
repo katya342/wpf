@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\progi\c#\BookShop\BookShop\obj\Debug\
+C:\remoteRepo\wpf\BookShop\BookShop\obj\Debug\
 BookShop
 none
 false
 DEBUG;TRACE
-C:\progi\c#\BookShop\BookShop\App.xaml
+C:\remoteRepo\wpf\BookShop\BookShop\App.xaml
 81005890829
-
+1-2056052830
 13-1256207586
-17597061736
+17-1792944574
 Pages\_pageBook.xaml;Windows\BookMainWindow.xaml;Windows\CategoryWindow.xaml;Windows\ContactWindow.xaml;MainWindow.xaml;Pages\_pageRegistration.xaml;Pages\_pageStart.xaml;Windows\_AdminWindow.xaml;
 
 True

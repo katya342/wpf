@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BookStore.lib;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,21 @@ namespace BookShop.Pages
         public _pageBook()
         {
             InitializeComponent();
+            EntityModel entity = new EntityModel();
+            Book books = new Book();
+            var data = entity.Book.ToList();
+            this.DataContext = data;
+            //lblBookName.DataContext = data;
+            
+            if(books.Name == null)
+            {
+                MessageBox.Show("Name property not filled");
+            }
+            else
+            {
+                //
+            }
+            
         }
     }
 }

@@ -25,6 +25,13 @@ namespace BookShop
         public _pageRegistration()  
         {
             InitializeComponent();
+            EntityModel entity = new EntityModel();
+            var data = entity.Users.ToList();
+            foreach (var item in data)
+            {
+                CityList.ItemsSource = item.City;
+            }
+            //CityList.ItemsSource = data;
 
         }
     }

@@ -1,0 +1,61 @@
+﻿<Window x:Class="Tests.CreatingTestWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tests"
+        mc:Ignorable="d"
+        Title="CreatingTestWin" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="120"></RowDefinition>
+            <RowDefinition></RowDefinition>
+  
+           
+        </Grid.RowDefinitions>
+     
+        <StackPanel Grid.Row="0" Grid.Column="0">
+            <WrapPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Label Content="Creating test" FontSize="15"></Label>
+            </WrapPanel>
+            <WrapPanel Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left">
+                <Label Content="Choose language please: "></Label>
+                <CheckBox>
+                    <Label Content="Eng"></Label>
+                </CheckBox>
+                <CheckBox>
+                    <Label Content="Rus"></Label>
+                </CheckBox>
+                
+            </WrapPanel>
+            <WrapPanel Grid.Row="1" HorizontalAlignment="Left" >
+                <Label Content="Choose testing type please:"></Label>
+                <CheckBox>
+                    <Label Content="Type1"></Label>
+                </CheckBox>
+            </WrapPanel>
+            <WrapPanel>
+                <Label Content="Choose testing programm please: "></Label>
+                <ComboBox Text="Program1">
+                    <ComboBoxItem IsSelected="True" x:Name="cmbBox_1">
+                        <Label Content="Section_1"></Label>
+                    </ComboBoxItem>
+                    <ComboBoxItem>
+                        <Label Content="Section_2"></Label>
+                    </ComboBoxItem>
+                </ComboBox>
+            </WrapPanel>
+          
+        </StackPanel>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Frame x:Name="sectionPage">
+                
+            </Frame>
+        </Grid>
+      
+    </Grid>
+</Window>

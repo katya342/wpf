@@ -12,3 +12,17 @@ C:\progi\c#\BookShop\BookStore.lib\obj\Debug\BookStore.lib.csproj.CoreCompileInp
 C:\progi\c#\BookShop\BookStore.lib\obj\Debug\BookStore.lib.csproj.CopyComplete
 C:\progi\c#\BookShop\BookStore.lib\obj\Debug\BookStore.lib.dll
 C:\progi\c#\BookShop\BookStore.lib\obj\Debug\BookStore.lib.pdb
+C:\remoteRepo\wpf\BookShop\BookStore.lib\bin\Debug\BookStore.lib.dll.config
+C:\remoteRepo\wpf\BookShop\BookStore.lib\bin\Debug\BookStore.lib.dll
+C:\remoteRepo\wpf\BookShop\BookStore.lib\bin\Debug\BookStore.lib.pdb
+C:\remoteRepo\wpf\BookShop\BookStore.lib\bin\Debug\EntityFramework.dll
+C:\remoteRepo\wpf\BookShop\BookStore.lib\bin\Debug\EntityFramework.SqlServer.dll
+C:\remoteRepo\wpf\BookShop\BookStore.lib\bin\Debug\EntityFramework.xml
+C:\remoteRepo\wpf\BookShop\BookStore.lib\bin\Debug\EntityFramework.SqlServer.xml
+C:\remoteRepo\wpf\BookShop\BookStore.lib\bin\Debug\ru\EntityFramework.resources.dll
+C:\remoteRepo\wpf\BookShop\BookStore.lib\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\remoteRepo\wpf\BookShop\BookStore.lib\obj\Debug\BookStore.lib.csproj.AssemblyReference.cache
+C:\remoteRepo\wpf\BookShop\BookStore.lib\obj\Debug\BookStore.lib.csproj.CoreCompileInputs.cache
+C:\remoteRepo\wpf\BookShop\BookStore.lib\obj\Debug\BookStore.lib.csproj.CopyComplete
+C:\remoteRepo\wpf\BookShop\BookStore.lib\obj\Debug\BookStore.lib.dll
+C:\remoteRepo\wpf\BookShop\BookStore.lib\obj\Debug\BookStore.lib.pdb
