@@ -26,20 +26,19 @@ namespace BookShop.Pages
             InitializeComponent();
             EntityModel entity = new EntityModel();
             Book books = new Book();
-            
             var data = entity.Book.ToList();
-            foreach (var item in data)
-            {
-                //lblBookName.DataContext = item.Name;
-                books.Name = item.Name;
-                //lblBookName.Text = item.Name;
-            }
+            this.DataContext = data;
             //lblBookName.DataContext = data;
-
-            // this.DataContext = data;
-            //imageBook.DataContext = entity.Book.FirstOrDefault();
-            lblBookName.Text = books.Name;
-            lblBookName.DataContext = this;
+            
+            if(books.Name == null)
+            {
+                MessageBox.Show("Name property not filled");
+            }
+            else
+            {
+                //
+            }
+            
         }
     }
 }

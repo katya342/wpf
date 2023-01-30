@@ -74,3 +74,4 @@ C:\remoteRepo\wpf\BookShop\BookShop\obj\Debug\BookShop.csproj.CoreCompileInputs.
 C:\remoteRepo\wpf\BookShop\BookShop\obj\Debug\BookShop.csproj.CopyComplete
 C:\remoteRepo\wpf\BookShop\BookShop\obj\Debug\BookShop.exe
 C:\remoteRepo\wpf\BookShop\BookShop\obj\Debug\BookShop.pdb
+C:\remoteRepo\wpf\BookShop\BookShop\obj\Debug\BookShop_Content.g.cs

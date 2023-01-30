@@ -23,11 +23,11 @@
                 <ColumnDefinition></ColumnDefinition>
                 <ColumnDefinition></ColumnDefinition>
             </Grid.ColumnDefinitions>
-            <Image Grid.Column="0" ContextMenu="{Binding Source=Image}" Source="{Binding Path=Image}" x:Name="imageBook"></Image>
+            <Image Grid.Column="0" ContextMenu="{Binding Source=Image}" Source="{Binding Category.Image}" x:Name="imageBook"></Image>
             <StackPanel Grid.Column="1">
                 <WrapPanel>
                     <Label Content="Name: "></Label>
-                    <TextBlock Width="200" x:Name="lblBookName" Text="{Binding Path=Book.Name}"></TextBlock>
+                    <Label Content="{Binding Book.Name}" Width="200" x:Name="lblBookName"></Label>
                 </WrapPanel>
                 <WrapPanel>
                     <Label Content="ISBN: "></Label>
