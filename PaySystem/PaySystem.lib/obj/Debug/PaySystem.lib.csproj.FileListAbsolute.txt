@@ -1,0 +1,14 @@
+C:\progi\c#\PaySystem\PaySystem.lib\bin\Debug\PaySystem.lib.dll.config
+C:\progi\c#\PaySystem\PaySystem.lib\bin\Debug\PaySystem.lib.dll
+C:\progi\c#\PaySystem\PaySystem.lib\bin\Debug\PaySystem.lib.pdb
+C:\progi\c#\PaySystem\PaySystem.lib\bin\Debug\EntityFramework.dll
+C:\progi\c#\PaySystem\PaySystem.lib\bin\Debug\EntityFramework.SqlServer.dll
+C:\progi\c#\PaySystem\PaySystem.lib\bin\Debug\EntityFramework.xml
+C:\progi\c#\PaySystem\PaySystem.lib\bin\Debug\EntityFramework.SqlServer.xml
+C:\progi\c#\PaySystem\PaySystem.lib\bin\Debug\ru\EntityFramework.resources.dll
+C:\progi\c#\PaySystem\PaySystem.lib\obj\Debug\PaySystem.lib.csproj.AssemblyReference.cache
+C:\progi\c#\PaySystem\PaySystem.lib\obj\Debug\PaySystem.lib.csproj.CoreCompileInputs.cache
+C:\progi\c#\PaySystem\PaySystem.lib\obj\Debug\PaySystem.lib.csproj.CopyComplete
+C:\progi\c#\PaySystem\PaySystem.lib\obj\Debug\PaySystem.lib.dll
+C:\progi\c#\PaySystem\PaySystem.lib\obj\Debug\PaySystem.lib.pdb
+C:\progi\c#\PaySystem\PaySystem.lib\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
