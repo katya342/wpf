@@ -22,7 +22,7 @@ namespace BookShop
         public BookMainWindow()
         {
             InitializeComponent();
-            bookPage.Source = new Uri("Pages/_pageBook.xaml", UriKind.RelativeOrAbsolute);
+            this.bookPage.Navigate(new Uri("Pages/_pageBook.xaml", UriKind.RelativeOrAbsolute));
         }
     }
 }

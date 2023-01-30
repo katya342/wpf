@@ -15,6 +15,7 @@ namespace BookStore.lib
         public virtual DbSet<Users> Users { get; set; }
         public virtual DbSet<Category> Category { get; set; }
         public virtual DbSet<Book> Book { get; set; }
+        public virtual DbSet<SubCategory> SubCategory { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
         }

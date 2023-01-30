@@ -44,8 +44,8 @@
         </WrapPanel>
         <TextBox Height="20" Grid.Row="6" Grid.Column="1"></TextBox>
         <TextBox Height="20" Grid.Row="7" Grid.Column="1"></TextBox>
-        <ComboBox Height="20" Grid.Row="8" Grid.Column="1" Name="CityList">
-            <TextBlock Text="Ahmedabad"></TextBlock>
+        <ComboBox Height="20" Grid.Row="8" Grid.Column="1" Name="CityList" DisplayMemberPath="City">
+            
         </ComboBox>
         <WrapPanel Height="20" Grid.Row="9" Grid.ColumnSpan="1">
             <CheckBox Content=""></CheckBox>

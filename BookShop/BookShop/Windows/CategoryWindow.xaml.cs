@@ -24,33 +24,40 @@ namespace BookShop
         public CategoryWindow()
         {
             InitializeComponent();
-            
             EntityModel entityModel = new EntityModel();
             var data = entityModel.Category.ToList();
+            var dataSub = entityModel.SubCategory.ToList();
             //cmbBox.Items.Add(data);
-            //cmbBoxDel.Items.Add(data);
-            //cmbBoxDelSub.Items.Add(data);
-            // операция не допустима, когда itemsourcre используется
-            cmbBox.ItemsSource = data;
-            cmbBoxDel.ItemsSource = data;
-            cmbBoxDelSub.ItemsSource = data;
+            foreach (var item in data)
+            {
+                cmbBoxDel.Items.Add(item);
+            }
+            foreach (var item in dataSub)
+            {
+                cmbBoxDelSub.Items.Add(item);
+                cmbBox.Items.Add(item);
+            }
+
+            
         }
 
+
+
+        // Add simple category (button)
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             try
             {
                 EntityModel model1 = new EntityModel();
-                List<string> CategoryNames = new List<string>();
-                model1.Category.Add(new Category()
-                {
-                    Name = tbxcatAdd.Text
-                });
-                model1.SaveChanges();
-                cmbBoxDel.ItemsSource = model1.Category.ToList();
-                MessageBox.Show("Category successfully added");
-    
-              
+                
+                    model1.Category.Add(new Category()
+                    {
+                        Name = tbxcatAdd.Text
+                    });
+                    model1.SaveChanges();
+                    var info = model1.Category.ToList();
+                    cmbBoxDel.Items.Add(info.Last());
+                    MessageBox.Show("Category successfully added");
             }
             catch (Exception ex)
             {
@@ -58,22 +65,23 @@ namespace BookShop
                 MessageBox.Show(ex.Message);
             }
           
-               
-            
         }
+
+        // Deleting simple category
         private void Deleting_Category(object sender, RoutedEventArgs e)
         {
 
             try
             {
                 EntityModel entityModel = new EntityModel();
-                string info = cmbBoxDel.Text;
-                entityModel.Category.Remove(entityModel.Category.Single(w => w.Name == info));
+                var data = entityModel.Category.Single(w => w.Name == cmbBoxDel.Text);
+                cmbBoxDel.DataContext = data;
+                entityModel.Category.Remove(data);
                 entityModel.SaveChanges();
                 //cmbBoxDel.ItemsSource = "";
                cmbBoxDel.Items.Remove(cmbBoxDel.SelectedItem);
                 MessageBox.Show("Successfully deleted category");
-               // cmbBoxDel.EndUpdate();
+          
             }
             catch (Exception ex)
             {
@@ -87,12 +95,12 @@ namespace BookShop
             try
             {
                 EntityModel entityModel = new EntityModel();
-                string info = cmbBoxDelSub.Text;
-                entityModel.Category.Remove(entityModel.Category.Single(w => w.Name == info));
+                var data = entityModel.SubCategory.Single(w => w.SubName == cmbBoxDelSub.Text);
+                cmbBoxDelSub.DataContext = data;
+                entityModel.SubCategory.Remove(data);
                 entityModel.SaveChanges();
-                cmbBoxDel.ItemsSource = "";
-                MessageBox.Show("Successfully deleted sub category");
-              //  cmbBoxDel.UpdateLayout();
+                cmbBoxDelSub.Items.Remove(cmbBoxDelSub.SelectedItem);
+                MessageBox.Show("Successfully deleted sub - category");
             }
             catch (Exception ex)
             {
@@ -100,16 +108,28 @@ namespace BookShop
                 MessageBox.Show(ex.Message);
             }
         }
+
+        // Add sub-category (button)
         private void Sub_Category_Add(object sender, RoutedEventArgs e)
         {
-            EntityModel entityModel = new EntityModel();
-            entityModel.Category.Add(new Category()
+            try
             {
-                Name = txtBoxAdd.Text,
-            });
-            entityModel.SaveChanges();
-            MessageBox.Show("Sub category successfully added");
-            
+                EntityModel entityModel = new EntityModel();
+                Random rand = new Random();
+                entityModel.SubCategory.Add(new SubCategory()
+                {
+                    SubName = txtBoxAdd.Text,
+                    Parent_Id = rand.Next(1, 10)
+                });
+                entityModel.SaveChanges();
+                var temp = entityModel.SubCategory.ToList();
+                cmbBoxDelSub.Items.Add(temp.Last());
+                MessageBox.Show("Sub - category successfully added");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
     }
